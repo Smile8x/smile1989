@@ -1,44 +1,32 @@
-<html lang="vi"><head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I Love You</title>
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap" rel="stylesheet">
+<html><head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&amp;display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-    
-    <div id="drag-container" style="transform: rotateX(-9.15009deg) rotateY(0.0799988deg);">
-        <div id="spin-container" style="width: 120px; height: 170px; animation: 60s linear 0s infinite normal none running spinRevert;">
-          <img src="https://i.pinimg.com/236x/09/fb/fa/09fbfa9bea517a7fc22e17eccf3b0efc.jpg" alt="" style="transform: rotateY(0deg) translateZ(240px); transition: transform 1s 2s;">
-          <img src="https://i.pinimg.com/474x/83/8f/8c/838f8c8ec3cc03e08cad9539713a4c90.jpg" alt="" style="transform: rotateY(45deg) translateZ(240px); transition: transform 1s 1.75s;">
-          <img src="https://i.pinimg.com/236x/28/ee/36/28ee361674946e0a4cb26d4ea8ade34e.jpg" alt="" style="transform: rotateY(90deg) translateZ(240px); transition: transform 1s 1.5s;">
-          <img src="https://i.pinimg.com/736x/e4/e4/b0/e4e4b0e7559fedb21159574999e3ecdc.jpg" alt="" style="transform: rotateY(135deg) translateZ(240px); transition: transform 1s 1.25s;">
-          <img src="https://i.pinimg.com/236x/cc/e8/cf/cce8cf9347b72aff733e40fa6a9c7674.jpg" alt="" style="transform: rotateY(180deg) translateZ(240px); transition: transform 1s 1s;">
-          <img src="https://i.pinimg.com/236x/aa/ef/e4/aaefe4bf6eb4cc11efead3429cfdb5ef.jpg" alt="" style="transform: rotateY(225deg) translateZ(240px); transition: transform 1s 0.75s;">
-          <img src="https://i.pinimg.com/564x/bb/c7/ba/bbc7ba6280d961d3e110c79311b5d5a9.jpg" alt="" style="transform: rotateY(270deg) translateZ(240px); transition: transform 1s 0.5s;">
-          <img src="https://i.pinimg.com/236x/c9/65/f3/c965f3beeaac25198df8cb60f7d8da36.jpg" alt="" style="transform: rotateY(315deg) translateZ(240px); transition: transform 1s 0.25s;">
-          
-            <p>My Love</p>
-          
-        
-        </div>
-        <div id="ground" style="width: 720px; height: 720px;"></div>
-      </div>
-      
-      <div id="music-container">
-<audio src="https://api.soundcloud.com/tracks/143041228/stream?client_id=587aa2d384f7333a886010d5f52f302a" controls="" autoplay="" loop="">    
-<p>If you are reading this, it is because your browser does not support the audio element.</p>
-</audio>
-</div>
-      <div id="canva">
-      <canvas id="canvas" width="982" height="730"></canvas>
-    </div>
-    <audio src="./music.mp3" autoplay="" loop=""></audio>
-    <script src="main.js"></script>
 
+<body style="">
+  <!-- <audio autoplay="autopaly">
+    <source src="renxi.mp3" type="audio/mp3" />
+  </audio> -->
+  <!-- 星空html -->
+  <!-- <div> -->
+  <div class="container2">
+    <div class="content">
+      <canvas id="universe"></canvas>
+    </div>
+  </div>
+  <!-- </div> -->
+  <div class="title">
+    <!-- EDIT HERE -->
+    <img class="img" src="https://www.bing.com/images/blob?bcid=S3YzD0f0eeUHqxcxoNWLuD9SqbotqVTdP.c" alt="JUNO_OKYO">
+    <canvas id="pinkboard"></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/particle.js"></script>
+  <script src="js/universe.js"></script>
 
 </body></html>
